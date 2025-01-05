@@ -6,19 +6,19 @@
       <link rel="stylesheet" href="./newhtml.css">
    </head>
    <body   onload="myFunction()"  style="background-image: url('./krajobraz.JPG')">
-<div class="mDIV cDIV"> <img id="img1" alt="" src="./example_foto/73A90A42-D196-409C-9DD1-23A6A7A6A89D.jpg"></div>
-<div class="mDIV cDIV"> <img id="img2" alt="" src="./example_foto/7F83481C-CB64-402F-8F79-C898C37025C0.JPG"></div>
+<div class="mDIV cDIV"> <img id="img1" alt="" src="./zwm/IMG_9317.jpg"></div>
+<div class="mDIV cDIV"> <img id="img2" alt="" src="./zwm/IMG_9348.jpg"></div>
 <div id="blink-f"  onclick="scaleForwardOne()"> <p class="blink-p">&#8649;</p></div>
 <div id="blink-bb"  onclick="scaleBackwardOne()"> <p class="blink-p">&#8647;</p></div>
 <div id="blink-start"  onclick="scaleForward()"> <p class="blink-s">&#9654;</p></div>
 <div id="blink-bback"  onclick="scaleBackward()"> <p class="blink-s">&#9664;</p></div>
 <div id="blink-stop"  onclick="stopScale()"> <p class="blink-s">&#9632;</p></div>
    <audio id = "aveMaria">
-      <source src="./example_foto/plus/Quartet Cinderella.mp3" type="audio/mp3">
+      <source src="./Quartet Cinderella.mp3" type="audio/mp3">
       Your browser does not support the audio element.
    </audio>       
    <script>
-var imgarr=[".","..","73A90A42-D196-409C-9DD1-23A6A7A6A89D.jpg","7F83481C-CB64-402F-8F79-C898C37025C0.JPG","best.jpg","DSC_0462.jpg"];
+var imgarr=[".","..","IMG_8658.jpg","IMG_9044.JPG","IMG_9266.jpg","IMG_9317.jpg","IMG_9348.jpg"];
 	   //var imgarr =[".","..","73A90A42-D196-409C-9DD1-23A6A7A6A89D.jpg","7F83481C-CB64-402F-8F79-C898C37025C0.JPG","best.jpg","DSC_0462.jpg","DSC_8166.jpg","FB_IMG_1650206788495.jpg","FB_IMG_1650206855090.jpg","IMG_0061.jpg","IMG_0201.jpg","IMG_0209.jpg","IMG_0426.jpg","IMG_0528.jpg","IMG_20150130_193358.jpg","IMG_20150926_161803.jpg","IMG_20160116_133926.jpg","IMG_20160424_161756.jpg","IMG_20160505_164133.jpg","IMG_20160505_164204.jpg","IMG_20160704_153027.jpg","IMG_20160901_100611.jpg","IMG_20160901_100635.jpg","IMG_20160901_100641.jpg","IMG_20160901_100847.jpg","IMG_20161223_201004.jpg","IMG_20170609_115935.jpg","IMG_20190324_144921.jpg","IMG_20190906_214847.jpg","IMG_20190917_174440.jpg","IMG_20191206_183414.jpg","IMG-20191229-WA0009.jpg","IMG_20200102_171820.jpg","IMG_20200110_182344.jpg","IMG_20200208_083954.jpg","IMG_20200215_121948.jpg","IMG-20200220-WA0004.jpg","IMG-20200220-WA0012.jpg","IMG-20200225-WA0015.jpg","IMG-20200225-WA0026.jpg","IMG-20200225-WA0028.jpg","IMG_20200409_103129.jpg","IMG_20200409_103136.jpg","IMG_20200517_143813.jpg","IMG_20200517_143929.jpg","IMG_20200611_144944.jpg","IMG_20200611_151227.jpg","IMG_20200630_200217.jpg","IMG_20200630_200833_1.jpg","IMG_20200630_200952_1.jpg","IMG_20200701_185937.jpg","IMG_20200824_104549.jpg","IMG_20200824_104656.jpg","IMG_20200906_100242.jpg","IMG_20200906_100313.jpg","IMG_20200909_172259.jpg","IMG_20200909_172312.jpg","IMG_20200909_172341.jpg","IMG_20201105_121507.jpg","IMG_20201231_191856_1.jpg","IMG_20201231_191858.jpg","IMG_20210104_163415.jpg","IMG_20210117_112539.jpg","IMG_20210117_121523.jpg","IMG_20210117_121853.jpg","IMG_20210228_124421.jpg","IMG_20210329_213711.jpg","IMG_20210329_213713.jpg","IMG_20210412_110846.jpg","IMG_20210502_124054.jpg","IMG_20210508_133928_2.jpg","IMG_20210508_134322.jpg","IMG_20210510_112427.jpg","IMG_20210515_145501.jpg","IMG_20210522_094624.jpg","IMG_20210522_175809.jpg","IMG_20210605_215416.jpg","IMG_20210605_215418.jpg","IMG_20210609_161504.jpg","IMG_20210609_161506.jpg","IMG_20210624_133827.jpg","IMG_20210625_133252.jpg","IMG_20210625_133300.jpg","IMG_20210627_120151.jpg","IMG_20210627_120215.jpg","IMG_20210627_121714.jpg","IMG_20210627_194806.jpg","IMG_20210627_195153.jpg","IMG_20210706_124320.jpg","IMG_20210725_165730.jpg","IMG_20210725_181444.jpg","IMG_20210728_135934.jpg","IMG_20210729_143551_1.jpg","IMG_20210804_185122.jpg","IMG_20210807_155957.jpg","IMG_20210807_160055.jpg","IMG_20210808_150701.jpg","IMG_20210814_163204.jpg","IMG_20210820_160244.jpg","IMG_20210820_160327.jpg","IMG_20210820_160328.jpg","IMG_20210911_150912.jpg","IMG_20210922_143017.jpg","IMG_20210922_143216.jpg","IMG_20211024_194228_2.jpg","IMG_20211024_194228.jpg","IMG_20211029_141959.jpg","IMG_20211210_180110.jpg","IMG_20211229_110130.jpg","IMG_20211231_191832.jpg","IMG_20220123_171321.jpg","IMG_20220129_090641.jpg","IMG_20220129_113139.jpg","IMG_20220130_181238.jpg","IMG_20220215_203950.jpg","IMG_20220215_203956.jpg","IMG_20220220_103935.jpg","IMG_20220220_104241.jpg","IMG_20220314_174150.jpg","IMG_20220426_184711.jpg","IMG_20220508_101431_302.jpg","IMG_20220515_141551.jpg","IMG_20220515_141602_1.jpg","IMG_20220618_100125.jpg","IMG_20220618_101121.jpg","IMG_20220621_175012.jpg","IMG_20220703_195436.jpg","IMG_20220703_195442.jpg","IMG_20220716_203159.jpg","IMG_20220807_125323.jpg","IMG_20220807_125541.jpg","IMG_20220807_130307.jpg","IMG_20220807_130309.jpg","IMG_20220819_122037.jpg","IMG_20220820_192344.jpg","IMG_20220820_192351.jpg","IMG_20220821_164328.jpg","IMG_20220826_135838.jpg","IMG_20220827_113142.jpg","IMG_20220827_113144.jpg","IMG_20220908_161316_763.jpg","IMG_20220908_161328_321.jpg","IMG_20220913_145438_787.jpg","IMG_3045.jpg","IMG_4051.jpg","IMG_4076.jpg","IMG_4404 (1).jpg","IMG_4404.jpg","IMG_4491.jpg","IMG_4503.jpg","IMG_4546.jpg","IMG_4610.jpg","IMG_4721.JPG","IMG_4727.jpg","IMG_4730.JPG","IMG_4752.jpg","IMG_4852.jpg","IMG_5148.jpg","IMG_5357.jpg","IMG_5545.jpg","IMG_5763.jpg","IMG_5789.JPG","IMG_5911.JPG","IMG_5933.jpg","IMG_5946.JPG","IMG_6084.jpg","IMG_6253.jpg","IMG_6273.JPG","IMG_6656.jpg","IMG-6a777dcbc29f3e6dd73e51d04abb9948-V.jpg","IMG_7114.jpg","IMG_7277.jpg","IMG-74cd2f3d89f3271b9581e11623778781-V.jpg","IMG_8227.JPG","IMG_8228.JPG","IMG_8486 2.jpg","IMG_8573.jpg","IMG_8658.jpg","IMG_8841.JPG","IMG_8862.jpg","IMG_9044.jpg","IMG_9221.jpg","IMG_9266.jpg","IMG_9312.jpg","IMG_9317.jpg","IMG_9348.jpg","IMG_9892.JPG","IMG-9e7f3e147f7770ab96cd0e3e700fa11d-V.jpg","_MG_0072.jpg","_MG_0075.jpg","_MG_0126.jpg","_MG_0127.jpg","_MG_0129.jpg","_MG_0150.jpg","_MG_0241.jpg","_MG_0245.jpg","_MG_0471.jpg","_MG_0475.jpg","_MG_0476.jpg","_MG_0479.jpg","_MG_0480.jpg","_MG_1298.jpg","_MG_1378.jpg","_MG_2917.jpg","_MG_3002.jpg","_MG_3058.jpg","_MG_3467.jpg","_MG_3552.jpg","_MG_3556.jpg","_MG_3693.jpg","_MG_3724.jpg","_MG_3731-2.jpg","_MG_3731-3.jpg","_MG_3846.jpg","_MG_3883.jpg","_MG_4094.jpg","_MG_4096.jpg","_MG_4099.jpg","_MG_4102.jpg","_MG_4666.jpg","_MG_4774.jpg","_MG_5060.jpg","_MG_5427.jpg","_MG_5817.jpg","_MG_6820.jpg","_MG_7748.jpg","_MG_8261.jpg","_MG_9056.jpg","_MG_9171.jpg","_MG_9203.jpg","_MG_9218.jpg","_MG_9964.jpg","_MG_9965.jpg","_MG_9980.jpg","_MG_9985.jpg","_MG_9987.jpg","Olga_Vozniuk_Balloon-13.jpg","Olga_Vozniuk_Balloon-31.jpg","Olga_Vozniuk_Bukovel-24.jpg","Olga_Vozniuk_Bukovel-27.jpg","Olga_Vozniuk_Lviv2015-29.jpg","Olga_Vozniuk_Novograd_Volynsky-25.jpg","Olga_Vozniuk_Novograd_Volynsky-9.jpg","Olga_Vozniuk_Odessa_2015-40.jpg","Olga_Vozniuk_Odessa_2015-72.jpg","Olga_Vozniuk_Odessa_2015-87.jpg","Olga_Vozniuk_Odessa_2015-9.jpg","Olga_Vozniuk_Pripolyarny_Ural_2015-131.jpg","Olga_Vozniuk_Pripolyarny_Ural_2015-181.jpg","Olga_Vozniuk_Pripolyarny_Ural_2015-29.jpg","P1300406.jpg","P1300413.jpg","P1300507.jpg","plus","sesja (11).JPG","sesja (12).JPG","sesja (15).JPG","sesja cia\u0328zowa (8).JPG"];
 //       for (var i = 2; i < imgarr.length; i++) { document.write(imgarr[i]); }
        var imgIndex = 2;
@@ -51,10 +51,10 @@ var imgarr=[".","..","73A90A42-D196-409C-9DD1-23A6A7A6A89D.jpg","7F83481C-CB64-4
           document.getElementById("blink-stop").style.display = "block";
           myVar = setInterval(function() {
              if (whatP === 1) {
-            fierstP.src = "./example_foto/" + imgarr[imgIndex++];
+            fierstP.src = "./zwm/" + imgarr[imgIndex++];
                  whatP = 2;
              } else {
-             secondP.src = "./example_foto/" + imgarr[imgIndex++];
+             secondP.src = "./zwm/" + imgarr[imgIndex++];
                  whatP = 1;
              }
              if (slideIndex > 0) {
@@ -84,10 +84,10 @@ var imgarr=[".","..","73A90A42-D196-409C-9DD1-23A6A7A6A89D.jpg","7F83481C-CB64-4
        }
        function scaleForwardOne() {
           if (whatP === 1) {
-            fierstP.src = "./example_foto/" + imgarr[imgIndex++];
+            fierstP.src = "./zwm/" + imgarr[imgIndex++];
               whatP = 2;
           } else {
-            secondP.src = "./example_foto/" + imgarr[imgIndex++];
+            secondP.src = "./zwm/" + imgarr[imgIndex++];
               whatP = 1;
           }
           if (slideIndex > 0) {
@@ -115,10 +115,10 @@ var imgarr=[".","..","73A90A42-D196-409C-9DD1-23A6A7A6A89D.jpg","7F83481C-CB64-4
        }
        function scaleBackwardOne() {
           if (whatP === 1) {
-            fierstP.src = "./example_foto/" + imgarr[imgIndex++];
+            fierstP.src = "./zwm/" + imgarr[imgIndex++];
               whatP = 2;
           } else {
-            secondP.src = "./example_foto/" + imgarr[imgIndex++];
+            secondP.src = "./zwm/" + imgarr[imgIndex++];
               whatP = 1;
           }
           if (slideIndex > 1) {
@@ -159,10 +159,10 @@ var imgarr=[".","..","73A90A42-D196-409C-9DD1-23A6A7A6A89D.jpg","7F83481C-CB64-4
           document.getElementById("blink-stop").style.display = "block";
           myVar = setInterval(function() {
              if (whatP === 1) {
-            fierstP.src = "./example_foto/" + imgarr[imgIndex++];
+            fierstP.src = "./zwm/" + imgarr[imgIndex++];
                  whatP = 2;
              } else {
-            secondP.src = "./example_foto/" + imgarr[imgIndex++];
+            secondP.src = "./zwm/" + imgarr[imgIndex++];
                  whatP = 1;
              }
 
